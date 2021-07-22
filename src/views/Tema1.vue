@@ -103,45 +103,45 @@
                 h4 Las primeras tiendas farmacéuticas (Siglo VIII)
                 p Se realizó la separación entre el tema farmacéutico y el médico, con el objetivo de identificar los alcances en cada uno de estos campos.
                 
-            //- .row.justify-content-center.mt-3(titulo="980-1037 d.C.")       
-            //-   .col-md-6.mb-4.mb-md-0
-            //-     figure
-            //-       img(src='@/assets/tema1/img_T11.jpg', alt='Texto que describa la imagen')
-            //-   .col-md-4
-            //-     h4 Avicena – El Galeno Persa (unos 980-1037 d. C.)
-            //-     p El conocimiento que impartió en temas relacionados con el mundo farmacéutico, fue aceptado en gran parte del siglo XVII. Es considerado uno de los grandes médicos de todos los tiempos.
+            .row.justify-content-center.mt-3(titulo="980-1037 d.C.")       
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/tema1/img_T11.jpg', alt='Texto que describa la imagen')
+              .col-md-4
+                h4 Avicena – El Galeno Persa (unos 980-1037 d. C.)
+                p El conocimiento que impartió en temas relacionados con el mundo farmacéutico, fue aceptado en gran parte del siglo XVII. Es considerado uno de los grandes médicos de todos los tiempos.
 
-            //- .row.justify-content-center.mt-3(titulo="1948")       
-            //-   .col-md-6.mb-4.mb-md-0
-            //-     figure
-            //-       img(src='@/assets/tema1/img_T12.jpg', alt='Texto que describa la imagen')
-            //-   .col-md-4
-            //-     h4 La primera farmacopea oficial (1498) 
-            //-     p Surgió la primera farmacopea como proceso de estandarización de los métodos utilizados para el manejo y la producción de sustancias medicinales.
+            .row.justify-content-center.mt-3(titulo="1948")       
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/tema1/img_T12.jpg', alt='Texto que describa la imagen')
+              .col-md-4
+                h4 La primera farmacopea oficial (1498) 
+                p Surgió la primera farmacopea como proceso de estandarización de los métodos utilizados para el manejo y la producción de sustancias medicinales.
 
-            //- .row.justify-content-center.mt-3(titulo="Siglo XII")       
-            //-   .col-md-6.mb-4.mb-md-0
-            //-     figure
-            //-       img(src='@/assets/tema1/img_T13.jpg', alt='Texto que describa la imagen')
-            //-   .col-md-6
-            //-     h4 Siglo XXI - La Farmacia de hoy y mañana
-            //-     p A inicios del siglo 21, la farmacia logró especializarse profundamente en gran parte de sus ámbitos de aplicación, con múltiples e interesantes cambios: hospitalario, atención primaria en salud, administración de los servicios farmacéuticos, centros de investigación, la industria farmacéutica y el conocimiento impartido por los docentes.
-            //-       br
-            //-       br
-            //-       | Los incontables cambios tecnológicos han llevado a los entes regulatorios y los profesionales de la salud, a trabajar de manera muy coordinada para poder llevar a efecto los controles respectivos a los procesos de comercialización.
-            //-       br
-            //-       br
-            //-       |También surge el concepto de Farmacia Marketing.
+            .row.justify-content-center.mt-3(titulo="Siglo XII")       
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/tema1/img_T13.jpg', alt='Texto que describa la imagen')
+              .col-md-6
+                h4 Siglo XXI - La Farmacia de hoy y mañana
+                p A inicios del siglo 21, la farmacia logró especializarse profundamente en gran parte de sus ámbitos de aplicación, con múltiples e interesantes cambios: hospitalario, atención primaria en salud, administración de los servicios farmacéuticos, centros de investigación, la industria farmacéutica y el conocimiento impartido por los docentes.
+                  br
+                  br
+                  | Los incontables cambios tecnológicos han llevado a los entes regulatorios y los profesionales de la salud, a trabajar de manera muy coordinada para poder llevar a efecto los controles respectivos a los procesos de comercialización.
+                  br
+                  br
+                  |También surge el concepto de Farmacia Marketing.
 
-    //- p Para ampliar la información sobre este tema, visite el enlace:
+    p Para ampliar la información sobre este tema, visite el enlace:
 
-    //- .row
-    //-   .col-auto
-    //-     a.anexo.mb-4(:href="obtenerLink('downloads/Historia-de-la-farmacia.pdf')" target="_blank")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-pdf.svg")
-    //-       .anexo__texto
-    //-         p Anexo. Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico
+    .row
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('downloads/Historia-de-la-farmacia.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico
 
               
 
