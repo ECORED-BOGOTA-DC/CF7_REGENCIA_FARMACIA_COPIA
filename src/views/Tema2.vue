@@ -38,13 +38,7 @@
 
     #t_2_2.titulo-segundo
       h2 2.2 Marco conceptual y enfoque
-
-    p Existen tres enfoques que orientan la propuesta de la Política Farmacéutica Nacional, los cuales fueron recomendados por organismos internacionales y tomados de diferentes modelos de políticas farmacéuticas desarrollados en otros países.
-      br
-      br
-      | Conozcamos cuáles son esos tres enfoques.
-
-
+      
     .tarjeta.gradient_A.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0

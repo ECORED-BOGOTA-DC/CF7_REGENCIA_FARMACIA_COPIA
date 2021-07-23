@@ -150,11 +150,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -254,37 +254,37 @@ export default {
   complementario: [
     {
       texto:
-        'Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico.González Núñez, J. (2009). La farmacia en la historia, una aproximación desde la ciencia, el arte y la literatura',
+        'González Núñez, J. (2009). La farmacia en la historia, una aproximación desde la ciencia, el arte y la literatura. https://esferasalud.com/wp-content/uploads/2014/03/Historia-de-la-farmacia.pdf',
       tipo: 'PDF',
       descarga: 'downloads/Historia-de-la-farmacia.pdf',
     },
     {
       texto:
-        'Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico. EVILAF Escuela para Farmacéuticos. (2017). Historia de la farmacia (parte 1) (Video). ',
+        'EVILAF Escuela para Farmacéuticos. (2017). Historia de la farmacia (parte 1) (Video). Youtube. https://www.youtube.com/watch?v=H6PLv9wZGTc ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=H6PLv9wZGTc ',
     },
     {
       texto:
-        'Política Farmacéutica Nacional. CONPES 155. (2012). Política Farmacéutica Nacional. ',
+        'CONPES 155. (2012). Política Farmacéutica Nacional. https://colaboracion.dnp.gov.co/CDT/Conpes/Social/155.pdf',
       tipo: 'PDF',
       descarga: 'downloads/155.pdf',
     },
     {
       texto:
-        'Normatividad del proceso de dispensación de productos farmacéuticos.Decreto 0780 de 2016. (2016). Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. ',
+        'Decreto 0780 de 2016. (2016). Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
       tipo: 'PDF',
       descarga: '/downloads/Decreto_0780_2016.pdf',
     },
     {
       texto:
-        'Normatividad del proceso de dispensación de productos farmacéuticos. Resolución 1403 de 2007. (2007).  Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones.',
+        'Resolución 1403 de 2007. (2007).  Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. https://www.invima.gov.co/documents/20143/453029/Resoluci%C3%B3n+1403+de+2007.pdf/6b2e1ce1-bb34-e17f-03ef-34e35c126949',
       tipo: 'PDF',
       descarga: '/downloads/Resolución_1403_2007.pdf',
     },
     {
       texto:
-        'Funciones del Tecnólogo en Regencia de Farmacia. Ley 485 de 1998. (1998). Por medio de la cual se reglamenta la profesión de Tecnólogo en Regencia de Farmacia y se dictan otras disposiciones.',
+        'Ley 485 de 1998. (1998). Por medio de la cual se reglamenta la profesión de Tecnólogo en Regencia de Farmacia y se dictan otras disposiciones. http://www.saludpereira.gov.co/medios/Ley_485_de_1998.pdf',
       tipo: 'PDF',
       descarga: '/downloads/Ley_485_de_1998.pdf',
     },
@@ -302,7 +302,24 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edwing Amir Moreno Moreno',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Diseñadora instruccional - Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -310,36 +327,30 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Daniel Ricardo Mutis Gómez',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

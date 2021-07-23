@@ -249,7 +249,8 @@
         .bloque-texto-b.bg-cyan.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.ms-5.mb-0 #[strong(style="color:#7E5EE3") Toda fórmula médica] debe cumplir con unos requisitos que le permitan ser utilizada de manera correcta por los profesionales que intervienen con su prescripción. A continuación, conoceremos cuáles son los aspectos que se deben tener muy presentes para el manejo de este documento, en el proceso de dispensación de los productos farmacéuticos (Artículo 2.5.3.10.15 Decreto 780 de 2016)
+            p.ms-5.mb-2 #[strong(style="color:#7E5EE3") Toda fórmula médica] debe cumplir con unos requisitos que le permitan ser utilizada de manera correcta por los profesionales que intervienen con su prescripción. A continuación, conoceremos cuáles son los aspectos que se deben tener muy presentes para el manejo de este documento, en el proceso de dispensación de los productos farmacéuticos 
+            p.mb-0.d-flex.justify-content-end #[strong (Artículo 2.5.3.10.15 Decreto 780 de 2016)]
             i.fas.fa-quote-right.d-flex.justify-content-end
 
     .row.align-items-center.mb-5

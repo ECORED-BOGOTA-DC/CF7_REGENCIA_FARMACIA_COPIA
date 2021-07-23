@@ -85,7 +85,7 @@
 
             .tarjeta.color-blanco.p-4(titulo="Resolución 1164 de 2002")  
               p.mb-2 #[strong Resolución 1164 de 2002]        
-              p Ministerio de la Protección Social. Reorganiza el Sistema Nacional de Salud.
+              p Ministerio del Medio Ambiente. Manual de procedimientos para la gestión integral de los residuos hospitalarios y similares.
 
             .tarjeta.color-blanco.p-4(titulo="Ley 212 de 1995")       
               p.mb-2 #[strong Ley 212 de 1995]   
