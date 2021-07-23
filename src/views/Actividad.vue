@@ -11,13 +11,13 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica de repaso, normatividad, proceso de dispensación y distribución.
-        p.mb-4 Evidenciar el grado de comprensión de la temática relacionada con la normatividad del proceso de dispensación y distribución. 
+        p.mb-4 El proposito de esta actividad es evidenciar el grado de comprensión de la temática relacionada con la normatividad del proceso de dispensación y distribución. 
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Opción múltiple con única respuesta
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Iniciar
                 i.fas.fa-puzzle-piece  
 
