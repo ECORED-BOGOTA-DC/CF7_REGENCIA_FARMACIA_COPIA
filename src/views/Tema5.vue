@@ -43,10 +43,10 @@
     .row.mb-5
       .col-lg-8
         TabsA.color-acento-contenido.mb-5   
-          .tarjeta.tarjeta--cyan.p-4(titulo="Dist. externa")
+          .tarjeta.tarjeta--cyan.p-4(titulo="Distr. externa")
             h4 Distribución externa
             pmb-0 Entregar medicamentos y/o dispositivos médicos cuando reciben la atención de los servicios de salud, y a los establecimientos farmacéuticos cuya distribución puede convertirse en venta, cuando la entrega genera pago.
-          .tarjeta.tarjeta--cyan.p-4(titulo="Dist. interna")
+          .tarjeta.tarjeta--cyan.p-4(titulo="Distr. interna")
             h4 Distribución interna
             p.mb-0 Actividad que se realiza en las diferentes áreas de hospitalización de la Institución, y que busca entregar los medicamentos y los dispositivos médicos.
       .col-auto
